@@ -60,7 +60,7 @@ if (isset($_SESSION['fighting'])) {
 </header>
 <main class="flex">
     <div class="fight">
-        <?php if (isset($_SESSION['fighters'])): ?>
+        <?php if (isset($_SESSION['fighting'])): ?>
             <?php $i = 1 ?>
             <?php while ($player1->getLifePoints() > 0 && $player2->getLifePoints() > 0): ?>
                 <div class="flex row">
