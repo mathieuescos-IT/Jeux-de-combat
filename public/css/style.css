@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header>ul {
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+
+.round {
+    width: 90%;
+    padding: 5px 0;
+}
+
+.round>p {
+    margin-left: 5px;
+}
+
+.count {
+    width: 10%;
+    padding: 5px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.reset-button {
+    justify-content: center;
+}
+
+.button {
+    height: 30px;
+    width: 50px;
+}
+
+.fight {
+    width: 65%;
+}
+
+.checkbox-button {
+    flex-direction: column;
+}
+
+.check-form {
+    width: 50%;
+    flex-direction: column;
+}
+
+.check-form>div {
+    justify-content: space-around;
+}
+
+.go-button {
+    justify-content: center;
+}
+
+.padding-bot {
+    padding-bottom: 15px;
+}
+
+main {
+    justify-content: center;
+}
+
+.victory {
+    text-align: center;
+}
